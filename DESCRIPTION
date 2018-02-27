@@ -1,0 +1,15 @@
+Package: ggverbs
+Title: Verbifies Nouns in the ggplot2 Package
+Version: 0.0.0.9000
+Authors@R: person("Dewey", "Dunnington", email = "dewey@fishandwhistle.net", role = c("aut", "cre"))
+Description: Constructing a plot in the ggplot package is currently based around
+  "adding" elements together. When components are added, the plot object is modified,
+  although "adding" is not always the appropriate verb to describe the action that
+  took place when the component was added. This package adds verb functions that
+  allow for coherent use of ggplot with the pipe, without masking any
+  ggplot functions.
+Depends: R (>= 3.4.3)
+Imports: ggplot2
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
