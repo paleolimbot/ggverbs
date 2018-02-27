@@ -1,2 +1,4 @@
 # Not to be modified by roxygen2!
+import(ggplot2)
+import(scales)
 exportPattern("^(set|add|update)_.+")
